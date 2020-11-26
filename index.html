@@ -98,6 +98,20 @@
         transition: 500,
         interval: 6000
       });
+      // Autocomplete
+      const ac = document.querySelector('.autocomplete');
+      M.Autocomplete.init(ac, {
+        data: {
+          "Barcelona, Spain": null,
+          "Madrid, Spain": null,
+          "Lisbon, Portugal": null,
+          "Porto, Portugal": null,
+          "Milan, Italy": null,
+          "Rome, Italy": null,
+          "Paris, France": null,
+          "Athens, Greece": null,
+        }
+      });
     </script>
   </body>
 </html>
