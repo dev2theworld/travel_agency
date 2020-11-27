@@ -8,3 +8,7 @@
 .section-popular img {
   height: 280px;
 }
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
