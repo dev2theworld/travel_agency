@@ -4,3 +4,7 @@
   width: 90% !important;
   border: #f4f4f4 3px solid !important;
 }
+
+.section-popular img {
+  height: 280px;
+}
