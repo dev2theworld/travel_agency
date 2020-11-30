@@ -12,3 +12,13 @@
 .section-follow .fa-4x {
   margin: 5px 10px;
 }
+
+.section-contact input:focus,
+.section-contact textarea:focus {
+  border-bottom: 1px solid #673ab7 !important;
+  box-shadow: 0 1px 0 0 #673ab7 !important;
+}
+
+.section-contact .btn {
+  background-color: #673ab7;
+}
